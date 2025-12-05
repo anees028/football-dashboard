@@ -54,7 +54,7 @@ Follow these steps to run the project on your machine:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR_USERNAME]/football-dashboard.git
+    git clone https://github.com/anees028/football-dashboard.git
     cd football-dashboard
     ```
 
