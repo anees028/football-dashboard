@@ -44,9 +44,7 @@ I built this project to showcase my proficiency with the **Next.js App Router**,
 
 | Dashboard View | Player Profile |
 |:---:|:---:|
-| ![Dashboard](https://via.placeholder.com/400x200?text=Upload+Your+Dashboard+Screenshot) | ![Profile](https://via.placeholder.com/400x200?text=Upload+Your+Profile+Screenshot) |
-
-*(Note: Replace these links with actual screenshots of your app for maximum impact)*
+| ![Dashboard](public/players.png)| ![Profile](public/player_detail.png) |
 
 ---
 
