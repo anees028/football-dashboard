@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Player } from "../data";
 import Image from "next/image";
 
@@ -74,9 +75,11 @@ export default function PlayerCard({ player }: { player: Player }) {
           </div>
         </div>
 
-        <button className="w-full py-2 bg-green-600 hover:bg-green-500 text-white rounded-lg font-semibold transition-colors">
-          View Full Profile
-        </button>
+        <Link href={`/player/${player.id}`} className="w-full block">
+          <button className="w-full py-2 bg-green-600 hover:bg-green-500 text-white rounded-lg font-semibold transition-colors shadow-lg shadow-green-900/20">
+            View Full Profile
+          </button>
+        </Link>
       </div>
 
     </div>
